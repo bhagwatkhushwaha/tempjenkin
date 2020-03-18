@@ -1,6 +1,6 @@
 {
-  "remoteServiceBaseUrl": "https://autumnscv.azurewebsites.net",
-  "appBaseUrl": "https://autumnscv.azurewebsites.net",
+  "remoteServiceBaseUrl": "http://localhost:22742/",
+  "appBaseUrl": "http://localhost:4200/",
   "localeMappings": {
     "angular": [
       {
