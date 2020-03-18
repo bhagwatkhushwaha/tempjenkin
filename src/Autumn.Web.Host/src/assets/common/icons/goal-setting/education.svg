@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="36px" viewBox="0 0 44 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>BAC579F5-62F6-419F-B2A0-70CB92C29555</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard---Goals" transform="translate(-995.000000, -249.000000)">
+            <g id="Goal-Copy-2" transform="translate(974.000000, 224.000000)">
+                <g id="Goal">
+                    <g id="icons/goal-copy-icons/education" transform="translate(19.000000, 19.000000)">
+                        <g id="twotone-assistant-24px">
+                            <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+                        </g>
+                        <g id="twotone-school-24px">
+                            <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+                            <path d="M16,24.54 L16,31.98 L26,37.44 L36,31.98 L36,24.54 L26,30 L16,24.54 Z M12.36,18 L26,25.44 L39.64,18 L26,10.56 L12.36,18 Z" id="Shape" fill="#FF826B" fill-rule="nonzero" opacity="0.26"></path>
+                            <path d="M24,6 L2,18 L10,22.36 L10,34.36 L24,42 L38,34.36 L38,22.36 L42,20.18 L42,34 L46,34 L46,18 L24,6 Z M34,31.98 L24,37.44 L14,31.98 L14,24.54 L24,30 L34,24.54 L34,31.98 Z M24,25.44 L10.36,18 L24,10.56 L37.64,18 L24,25.44 Z" id="Shape" fill="#3F3D56" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

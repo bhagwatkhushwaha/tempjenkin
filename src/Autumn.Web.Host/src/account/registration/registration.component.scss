@@ -1,0 +1,342 @@
+$activeButtonBackground: #17b2bf;
+$backButtonBackground: transparent;
+$activeButtonColor: white;
+$BackButtonColor: #17b2bf;
+$stepperColor: #a86781;
+$borderRedius: 8px;
+$px: "px !important";
+$fontFamily: "Raleway !important";
+
+body {
+  font-family: $fontFamily;
+}
+
+@mixin font($val) {
+  font-size: unquote($val + " !important");
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mat-input-element {
+  color: black;
+}
+
+.kt-subheader {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+.mainUpperDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #9ca4ab;
+}
+
+.topBarOuterDiv {
+  position: fixed;
+  height: 64px;
+  background-color: white;
+  border-bottom: black;
+  border-top: black;
+  width: 94%;
+  display: inline-flex;
+  z-index: 1;
+  border-bottom: 1px solid #a86781;
+}
+
+.autumnLogoDiv {
+  width: 50%;
+  height: 100%;
+  padding: 17px 0px 0px 10.83%;
+  display: inline-flex;
+}
+
+.buttonSize {
+  height: 56px;
+  width: 250px;
+  text-align: center;
+  @include font(16px);
+}
+
+.graphButtons {
+  text-align: center;
+  width: 100% !important;
+  background-color: transparent;
+  color: #17b2bf;
+  border-radius: $borderRedius;
+  border-color: #17b2bf;
+  padding: 10px;
+  @include font(14px);
+}
+
+.goToGraphButton {
+  background-color: $activeButtonBackground;
+  color: $activeButtonColor;
+  border-radius: $borderRedius;
+  border-color: $activeButtonBackground;
+}
+
+.backButton {
+  background-color: transparent;
+  color: #17b2bf;
+  border-radius: $borderRedius;
+  border-color: #17b2bf;
+  @include font(16px);
+}
+
+.backButton:hover {
+  color: #17b2bf !important;
+}
+
+.nextValidButton {
+  background-color: $activeButtonBackground;
+  color: $activeButtonColor;
+  border-radius: $borderRedius;
+  border-color: $activeButtonBackground;
+}
+
+.inActiveButton {
+    background-color: gray !important;
+    border-color: gray !important;
+}
+
+.activeButton {
+    background-color: unquote($activeButtonBackground + '!important');
+    border-color: unquote($activeButtonBackground + '!important');
+}
+
+.nextButton {
+  background-color: #a2a2a2;
+  color: $activeButtonColor;
+  height: 56px;
+  width: 263px;
+  border-radius: $borderRedius;
+  border-color: #a2a2a2;
+  text-align: center;
+  @include font(16px);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: gray;
+  border-color: gray;
+}
+
+.dotText {
+  border: none;
+  border-bottom: 2px dashed #17b2bf;
+  width: 91px;
+  color: #575976;
+  text-align: left;
+  font-family: unquote($fontFamily);
+}
+
+.widthAuto {
+  width: auto !important;
+}
+
+.dotText:focus {
+  outline: none;
+}
+
+.fullButton {
+  background-color: $activeButtonBackground;
+  color: $activeButtonColor;
+  height: 50px !important;
+  width: 100%;
+  border-color: $activeButtonBackground;
+  @include font(16px);
+}
+
+mat-radio-button {
+  @include font(25px);
+}
+
+.m-portlet {
+  border-radius: $borderRedius;
+}
+
+.rectangle {
+  height: 56px;
+  width: 120px;
+  border-radius: $borderRedius;
+  border-color: $activeButtonBackground;
+  background-color: $activeButtonBackground;
+  margin-top: 13px;
+  color: white;
+  @include font(16px);
+}
+
+.retireGoal {
+  padding-left: 45px;
+}
+
+.popupLi {
+  list-style-type: none;
+  text-align: left;
+}
+
+bs-tooltip-container {
+  background-color: white;
+  border-color: #17b2bf;
+}
+
+.bs-tooltip-top,
+.bs-tooltip-bottom {
+  background-color: white !important;
+  border-color: #17b2bf !important;
+}
+
+//for tooltip
+.m-dropdown__body {
+  padding: 10px !important;
+  @include font(12px);
+}
+
+%padding-left-right {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.kt-list-timeline__item {
+  @extend %padding-left-right;
+}
+
+.stepperText {
+  font-weight: 500;
+  color: #a86781;
+  @include font(18px);
+}
+
+.subtitle-1 {
+  font-weight: 600;
+  @include font(16px);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.plan-your-future {
+  height: 18px;
+  width: 156px;
+  color: #666666;
+  @include font(15px);
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.subheader {
+  height: 18px;
+  width: 294px;
+  color: #666666;
+  @include font(15px);
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.header-2-lines {
+  /*height: 74px;*/
+  width: 884px;
+  color: #505d6f;
+  font-family: Raleway;
+  @include font(32px);
+  font-weight: 600;
+}
+
+.panelInformation {
+  height: 54px;
+  @extend .header-2-lines;
+}
+
+li > span {
+  padding-left: 10px;
+}
+.btn {
+  @include font(16px);
+}
+
+.autumn {
+  height: 30px;
+  width: 115.4px;
+  color: #a86781;
+  @include font(26px);
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.header {
+  background-color: white;
+  border-bottom: black;
+  border-top: black;
+  border-bottom: 1px solid #a86781;
+}
+
+.helpButton {
+  box-shadow: none;
+  height: 21px;
+  width: 58px;
+  color: #a86781;
+  @include font(16px);
+  font-weight: 600;
+  line-height: 21px;
+  text-align: right;
+  font-family: unquote($fontFamily);
+}
+
+.saveProgressButton {
+  box-shadow: none;
+  height: 21px;
+  width: 137.4px;
+  color: #a86781;
+  @include font(16px);
+  font-weight: 600;
+  line-height: 21px;
+  text-align: right;
+  font-family: unquote($fontFamily);
+}
+
+label {
+  margin-bottom: 0px !important;
+}
+
+.scrollDiv {
+  height: 100%;
+  width: 94%;
+  margin-left: 3%;
+  background-color: #faf9f7;
+  position: fixed;
+  overflow: hidden;
+}
+
+.scrollDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.my-total-monthly-inc {
+  color: #505d6f;
+  font-weight: 600;
+  text-align: center;
+  @include font(28px);
+  font-family: unquote($fontFamily);
+  line-height: 55px;
+  text-align: center;
+}
+
+.resultPageTextBox {
+  font-family: unquote($fontFamily);
+  font-weight: bold;
+}
+
+.labelDescription {
+  color: black;
+  font-weight: 400;
+}
+
+.innerLabelDescription {
+  @extend .labelDescription;
+  font-weight: 500;
+  @include font(14px);
+}

@@ -1,0 +1,43 @@
+.surface {
+    height: 56px;
+    width: 360px;
+    border-radius: 4px 4px 0 0;
+}
+.container {
+    background-color: #FAF9F7;
+    height:100%;
+}
+
+.rectangle {
+    height: 56px;
+    border-radius: 8px;
+    background-color: #17B2BF;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width:100%;
+}
+
+.login-to-autumn {
+    height: 37px;
+    /*width: 479px;*/
+    color: #455E75;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+}
+
+.don-t-have-anaccount {
+    height: 21px;
+    /*width: 336px;*/
+    color: #00B8C4;
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 21px;
+}
+.form-group {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}

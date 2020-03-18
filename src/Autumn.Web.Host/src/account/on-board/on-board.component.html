@@ -1,0 +1,214 @@
+<div class="mainUpperDiv">
+    <div class="mainFunctionDiv">
+        <div class="topBarDiv">
+            <div class="autumnLogoDiv">
+                <img src="assets/common/icons/logo.svg" style="height: 32px;" />
+                <div class="autumn" style="margin-left: 15px;">
+                    <span>Autumn</span>
+                </div>
+            </div>
+            <div class="loginRegDiv">
+                <div class="example-button-row loginRegInnerDiv">
+                    <button mat-raised-button class="loginButton" (click)="goToLogin()">Login</button>&nbsp;&nbsp;
+                    <button mat-raised-button class="registerButton" (click)="goToRegisteration()">Register</button>
+                </div>
+            </div>
+        </div>
+        <div class="innerItemDiv">
+            <div class="life-s-good-when-you">
+                <div style="padding-top: 77px;">
+                    <span>Life's good when you're on top of your</span>
+                    <br><span>retirement</span>
+                </div>
+            </div>
+
+            <!-- <div class="corouselMainDiv">
+                <div class="corouselInnerDiv">
+                    <div class="customNextBtn">
+                        <img src="assets/common/icons/left-arrow.png" id="left" style="height: 45px;" />
+                    </div>
+                    <owl-carousel #courosel [options]="carouselOptions" [items]="items"
+                        [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                        <div class="item" *ngFor="let item of items;let i= index">
+                            <div class="items">
+                                <div class="corousel" [id]="'slide-'+i">
+                                    <div class="slideIconDiv">
+                                        <img style="height: 50px;" src="{{item.image}}" />
+                                    </div>
+                                    <div style="padding-top: 10%;">
+                                        <span>{{item.text}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </owl-carousel>
+                    <div class="customPrevBtn">
+                        <img src="assets/common/icons/right-arrow.png" id="right" style="height: 45px;" />
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="corouselMainDiv"></div>
+
+            <div style="position: absolute;width: 100%;top: 300px;">
+                <div class="container" style="position: relative;">
+                    <div class="customNextBtn">
+                        <img src="assets/common/icons/left-arrow.png" id="left" style="height: 45px;" />
+                    </div>
+                    <owl-carousel #courosel [options]="carouselOptions" [items]="items"
+                        [carouselClasses]="['owl-theme', 'row', 'sliding']">
+                        <div *ngFor="let item of items"
+                            style="height: 300px;color: #505d6f;border-radius: 8px;
+                                box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);text-align: center;font-weight: 600;font-size: 28px;background: #ffffff;">
+                            <div class="slideIconDiv">
+                                <img class="imageCls" style="height: 50px;" src="{{item.image}}" />
+                            </div>
+                            <div style="padding: 8%;">
+                                <span>{{item.text}}</span>
+                            </div>
+                        </div>
+                    </owl-carousel>
+                    <div class="customPrevBtn">
+                        <img src="assets/common/icons/right-arrow.png" id="right" style="height: 45px;" />
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="info[displayIndex]" style="margin-top: 18%;">
+                <div class="row" *ngFor="let item of info[displayIndex]" style="margin-top: 3%;">
+                    <div class="col-2"></div>
+                    <div class="col-0.5 infoIconDiv">
+                        <img src="{{item.image}}" style="height: 40px;" />
+                    </div>
+                    <div class="col-8.5" style="padding-left: 40px;">
+                        <div class="infoDiv">
+                            <span class="card-name">{{item.headText}}</span>
+                            <br><br>
+                            <div class="by-connecting-you-ac">
+                                <span>{{item.text1}}</span>
+                                <br><span *ngIf="item.text2">{{item.text2}}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+
+            <div class="feel-like-at-home">
+                <span>{{info[displayIndex][0].mainText}}</span>
+            </div>
+
+            <div style="margin-top: 3%;">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-9" style="padding: 0px;">
+                        <div class="row" *ngIf="features[displayIndex]">
+                            <div class="features" *ngFor="let item of features[displayIndex]"
+                                [ngClass]="features[displayIndex].length == 4 ? 'col-3' : 'col-4'">
+                                <span style="font-size: 24px;font-weight: 600;">{{item.headText}}</span>
+                                <br>
+                                <div class="inlineFlex">
+                                    <i class="material-icons">check_box</i>&nbsp;
+                                    <span class="featuresText">{{item.text1}}</span>
+                                </div>
+                                <br>
+                                <div class="inlineFlex">
+                                    <i class="material-icons">check_box</i>&nbsp;
+                                    <span class="featuresText">{{item.text2}}</span>
+                                </div>
+                                <br>
+                                <div class="inlineFlex" *ngIf="item.text3">
+                                    <i class="material-icons">check_box</i>&nbsp;
+                                    <span class="featuresText">{{item.text3}}</span>
+                                </div>
+                                <br>
+                                <div class="inlineFlex" *ngIf="item.text4">
+                                    <i class="material-icons">check_box</i>&nbsp;
+                                    <span class="featuresText">{{item.text4}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+
+            <div style="background-color: #ffffff;">
+                <div class="how-to-get-your-reti">
+                    <span>How to get your retirement in shape?</span>
+                </div>
+
+                <div class="row stepDivs" style="margin-top: 3%;">
+                    <div class="col-6 step1MainDiv">
+                        <div class="step1Div"></div>
+                        <div class="step1InnerDiv">
+                            <span class="subheader">STEP 1</span>
+                            <div>
+                                <span class="header">See the potential of your</span>
+                                <br><span class="header">savings</span>
+                            </div>
+                            <br><br>
+                            <div class="set-up-your-retireme">
+                                <span>Set up your retirement goals. Link your</span>
+                                <br><span>accounts. Provide information on your family</span>
+                                <br><span>and financial assets.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 imgHeightWidth">
+                        <img src="assets/common/images/step1.svg" class="stepImg" style="right: 5%;" />
+                    </div>
+                </div>
+
+                <div class="row stepDivs" style="margin-top: 5%;">
+                    <div class="col-6 imgHeightWidth">
+                        <img src="assets/common/images/step2.svg" class="stepImg" style="left: 5%;" />
+                    </div>
+                    <div class="col-6 imgHeightWidth" style="padding-left: 8%;">
+                        <div class="step2Div"></div>
+                        <div class="step2InnerDiv">
+                            <span class="subheader">STEP 2</span>
+                            <div>
+                                <span class="header">Visualise and realise your</span>
+                                <br><span class="header">retirement plan</span>
+                            </div>
+                            <br><br>
+                            <div class="set-up-your-retireme">
+                                <span>Highlight your opportunities and potential</span>
+                                <br><span>pitfalls. Make informed short term and long</span>
+                                <br><span>term decisions to achieve your future lifestyle</span>
+                                <br><span>goals.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row stepDivs" style="margin-top: 5%;">
+                    <div class="col-6 imgHeightWidth">
+                        <div class="step3Div"></div>
+                        <div class="step3InnerDiv">
+                            <span class="subheader">STEP 3</span>
+                            <div>
+                                <span class="header">Be ready for your desired</span>
+                                <br><span class="header">future lifestyle</span>
+                            </div>
+                            <br><br>
+                            <div class="set-up-your-retireme">
+                                <span>Feel secure about your future lifestyle. Have</span>
+                                <br><span>your finances in place, get your will ready, be</span>
+                                <br><span>sure you and your family will feel</span>
+                                <br><span>comfortable.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 imgHeightWidth">
+                        <img src="assets/common/images/step3.svg" class="stepImg" style="right: 10%;" />
+                    </div>
+                </div>
+                <div style="margin-top: 5%;">
+                    <img src="assets/common/images/footer.png" style="width: 100%;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

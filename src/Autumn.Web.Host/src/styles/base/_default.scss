@@ -1,0 +1,54 @@
+$percentage : 5 10 15 20 30 40 50 100;
+$font : 10 12 14 15 17 18 28 32;
+$padding: 0 5 10 15 20;
+$margin: 0 5 10 15 20;
+$weight: 100 200 300 400 500 600 700 800 900;
+$px: 'px !important';
+
+@each $p in $percentage {
+    .width-percent-#{$p} {
+        width: unquote($p + '% !important;');
+    }
+}
+
+@each $f in $font {
+    .font#{$f} {
+        font-size: unquote($f + 'px');
+    }
+}
+
+@each $w in $weight {
+    .fontWeight#{$w} {
+        font-weight: unquote($w + '% !important;');
+    }
+}
+
+@each $s in $padding {
+    .padding-left-#{$s} {
+        padding-left: unquote($s + $px);
+    }
+    .padding-right-#{$s} {
+        padding-right: unquote($s + $px);
+    }
+    .padding-top-#{$s} {
+        padding-top: unquote($s + $px);
+    }
+    .padding-bottom-#{$s} {
+        padding-bottom: unquote($s + $px);
+    }
+}
+
+@each $m in $margin {
+    .margin-left-#{$m} {
+        margin-left: unquote($m + $px);
+    }
+    .margin-right-#{$m} {
+        margin-right: unquote($m + $px);
+    }
+    .margin-top-#{$m} {
+        margin-top: unquote($m + $px);
+    }
+    .margin-bottom-#{$m} {
+        margin-bottom: unquote($m + $px);
+    }
+}

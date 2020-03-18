@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="32px" viewBox="0 0 36 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>BC27A4A6-E833-479E-B908-D0B9D14A66C3</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard---Goals" transform="translate(-999.000000, -355.000000)">
+            <g id="Goal-Copy-3" transform="translate(974.000000, 326.000000)">
+                <g id="Goal">
+                    <g id="icons/goal-copy-icons/car" transform="translate(19.000000, 19.000000)">
+                        <g id="twotone-directions_car-24px">
+                            <path d="M12,35 L40,35 L40,25 L12,25 L12,35 Z M35,27 C36.66,27 38,28.34 38,30 C38,31.66 36.66,33 35,33 C33.34,33 32,31.66 32,30 C32,28.34 33.34,27 35,27 Z M17,27 C18.66,27 20,28.34 20,30 C20,31.66 18.66,33 17,33 C15.34,33 14,31.66 14,30 C14,28.34 15.34,27 17,27 Z" id="Shape" fill="#FF826B" fill-rule="nonzero" opacity="0.230840774"></path>
+                            <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+                            <path d="M37.84,12.02 C37.44,10.84 36.32,10 35,10 L13,10 C11.68,10 10.58,10.84 10.16,12.02 L6,24 L6,40 C6,41.1 6.9,42 8,42 L10,42 C11.1,42 12,41.1 12,40 L12,38 L36,38 L36,40 C36,41.1 36.9,42 38,42 L40,42 C41.1,42 42,41.1 42,40 L42,24 L37.84,12.02 Z M13.7,14 L34.28,14 L36.44,20.22 L11.54,20.22 L13.7,14 Z M38,34 L10,34 L10,24 L38,24 L38,34 Z" id="Shape" fill="#3F3D56" fill-rule="nonzero"></path>
+                            <circle id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="15" cy="29" r="3"></circle>
+                            <circle id="Oval" fill="#3F3D56" fill-rule="nonzero" cx="33" cy="29" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

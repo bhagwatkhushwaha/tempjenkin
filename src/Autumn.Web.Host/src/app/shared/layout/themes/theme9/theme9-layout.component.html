@@ -1,0 +1,47 @@
+
+<style></style>
+
+<div [@routerTransition]>
+    <div class="kt-grid kt-grid--hor kt-grid--root ">
+        <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
+            <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
+                <div id="kt_header" ktHeader #ktHeader class="kt-header kt-grid__item" data-ktheader-minimize="1" style="background-color:white;">
+                    <div class="kt-container container" style="background-color:white;height: 75px;">
+                        <div class="row" >
+                            <div class="col-lg-2 col-md-2 col-sm-2">
+                                <theme9-brand></theme9-brand>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-8">
+                                <top-bar-menu></top-bar-menu>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-2">
+                                <topbar></topbar>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="d-lg-none p-3 mobile-subscription-warning">
+                        <div *ngIf="subscriptionStatusBarVisible()"
+                             [ngClass]="{'hidden': !subscriptionStatusBarVisible()}" class="d-inline-block d-sm-none mt-3 ml-3">
+                            <span *ngIf="tenant.isInTrialPeriod && !subscriptionIsExpiringSoon()" [innerHTML]="getTrialSubscriptionNotification()"></span>
+                            <a *ngIf="subscriptionIsExpiringSoon()" routerLink="/app/admin/subscription-management">
+                                <span *ngIf="subscriptionIsExpiringSoon() && tenant.isInTrialPeriod"><i class="fa fa-exclamation-circle"></i> {{getExpireNotification("TrialExpireNotification")}}</span>
+                                <span *ngIf="subscriptionIsExpiringSoon() && !tenant.isInTrialPeriod"><i class="fa fa-exclamation-circle"></i> {{getExpireNotification("SubscriptionExpireNotification")}}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-grid--stretch" style="background-color:#faf9f7;margin-top:-20px;">
+                    <div class="kt-container container kt-body  kt-grid kt-grid--ver" id="kt_body">
+                        <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor">
+                            <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" style="height:100%;" >
+                                <router-outlet></router-outlet>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <stacked-footer-bar></stacked-footer-bar>-->
+            </div>
+        </div>
+    </div>
+
+</div>

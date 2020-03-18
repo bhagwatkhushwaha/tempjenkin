@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>FC4DD5FE-178D-4D71-90A4-52DF8D6BA0E8</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page---Recommendations" transform="translate(-358.000000, -429.000000)">
+            <g id="Section-1" transform="translate(-1.000000, 0.000000)">
+                <g id="Carousel" transform="translate(189.000000, 329.000000)">
+                    <g id="Card" transform="translate(65.000000, 55.000000)">
+                        <g id="icons/insurance-copy-icons/investments" transform="translate(96.000000, 36.000000)">
+                            <g id="twotone-assessment-24px">
+                                <path d="M18,16.5 L18,58.5 L60,58.5 L60,16.5 L18,16.5 Z M30,52.5 L24,52.5 L24,31.5 L30,31.5 L30,52.5 Z M42,52.5 L36,52.5 L36,22.5 L42,22.5 L42,52.5 Z M54,52.5 L48,52.5 L48,40.5 L54,40.5 L54,52.5 Z" id="Shape" fill="#FF826B" fill-rule="nonzero" opacity="0.230840774"></path>
+                                <polygon id="Path" points="0 0 72 0 72 72 0 72"></polygon>
+                                <path d="M57,9 L15,9 C11.7,9 9,11.7 9,15 L9,57 C9,60.3 11.7,63 15,63 L57,63 C60.3,63 63,60.3 63,57 L63,15 C63,11.7 60.3,9 57,9 Z M57,57 L15,57 L15,15 L57,15 L57,57 Z M21,30 L27,30 L27,51 L21,51 L21,30 Z M33,21 L39,21 L39,51 L33,51 L33,21 Z M45,39 L51,39 L51,51 L45,51 L45,39 Z" id="Shape" fill="#3F3D56" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

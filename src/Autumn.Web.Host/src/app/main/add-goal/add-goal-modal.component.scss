@@ -1,0 +1,37 @@
+@import "../../../styles/abstracts/variables";
+$borderRedius: 8px;
+$goalColor: #333333; 
+
+@mixin font($val) {
+    font-size: unquote($val + ' !important');
+}
+
+.graphDiv {
+    border-radius: $borderRedius;
+}
+
+.fullHeight{
+    height:100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.modal-content {
+    background-color: transparent;
+    @extend .fullHeight;
+}
+
+.formContent {
+    background-color: white !important;
+    @extend .fullHeight;
+}
+
+.your-goals {
+    /*height: 37px;
+    width: 201px;*/
+    color: $goalColor;
+}
+
+

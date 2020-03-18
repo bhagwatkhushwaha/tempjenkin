@@ -1,0 +1,40 @@
+@import "../../styles/abstracts/variables";
+
+@mixin font($val) {
+    font-size: unquote($val + ' !important');
+}
+
+.user-edit-dialog-profile-image {
+    margin-bottom: 20px;
+}
+
+.saveProgressButton {
+    background-color: $confirmPasswordActiveButtonBackgroundColor;
+    color: $confirmPasswordActiveButtonColor;
+    border-radius: $borderRedius;
+    border-color: $confirmPasswordActiveButtonBackgroundColor;
+    height: 56px;
+    width: 263px;
+    text-align: center;
+    @include font(16px);
+}
+
+.confirmPasswordTextBox {
+    width: 100%;
+    padding: 10px;
+    color: $confirmPasswordActiveButtonBackgroundColor;
+    border-radius: $borderRedius;
+    border: 1px solid black;
+    @include font(16px);
+}
+::placeholder {
+    color: $confirmPasswordActiveButtonBackgroundColor;
+}
+.confirmPasswordTextBox:focus {
+    border : 1px solid black;
+    outline:none;
+}
+
+.close, .close:hover {
+    color: $confirmPasswordActiveButtonBackgroundColor;
+}

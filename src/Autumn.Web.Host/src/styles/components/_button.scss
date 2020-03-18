@@ -1,0 +1,162 @@
+@import "../abstracts/variables";
+
+%buttonFont {
+    font-family: unquote($fontFamily);
+}
+.aut-button {
+    min-height: 41px;
+    min-width: 168px;
+    height: 41px;
+    width: 168px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: $main-brand-color;
+    color: #FFFFFF;
+    font-family: "autumn";
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 19px;
+    text-align: center;
+    font-size: 16px;
+}
+
+%button {
+    min-height: 41px;
+    min-width: 168px;
+    height: 41px;
+    width: 168px;
+    border-radius: 8px;
+    border: 0px;
+    font-family: "autumn";
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 19px;
+    text-align: center;
+    font-size: 16px;
+}
+
+%nav-bar-primary-button {
+    background-color: $primary-button-background-color;
+    color: $primary-button-text-color;
+}
+
+%nav-bar-secondary-button {
+    background-color: $secondary-button-background-color;
+    color: $secondary-button-text-color;
+}
+
+%defaultButton {
+    @extend %buttonFont;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: $main-brand-color;
+}
+
+%onboarding-button {
+    @extend %buttonFont;
+    height: 56px;
+    width: 263px;
+    background-color: $transpatent;
+    border: 1px solid $onboarding-button-border-color;
+    border-radius: 8px;
+}
+
+%goal-setting {
+    @extend %buttonFont;
+    padding: 15px !important;
+    height: auto;
+    width: 100%;
+    text-align: left !important;
+    padding: 20px !important;
+    margin-bottom: 20px;
+}
+
+.btn {
+    &--navbar-primary {
+        @extend %button;
+        @extend %nav-bar-primary-button;
+    }
+
+    &--navbar-secondary {
+        @extend %button;
+        @extend %nav-bar-secondary-button;
+    }
+
+    &--onboarding-default {
+        @extend %button;
+        @extend %onboarding-button;
+        background-color: $transpatent;
+        color: $main-brand-color;
+    }
+
+    &--onboarding-selected {
+        @extend %button;
+        @extend %onboarding-button;
+        background-color: $main-brand-color;
+        color: $primary-button-text-color;
+    }
+
+    &--onboarding-inactive {
+        @extend %button;
+        @extend %onboarding-button;
+        background-color: $inactive-button-background-color;
+        color: $primary-button-text-color;
+        border: none;
+    }
+
+    &--add-goal {
+        @extend %goal-setting;
+        box-sizing: border-box;
+        border: 1px solid #17B2BF;
+        background-color: transparent;
+        margin-bottom: 0px !important;
+    }
+
+    &--display-goal {
+        @extend %goal-setting;
+        box-sizing: border-box;
+        border: 1px solid #17B2BF;
+        border-radius: 8px;
+        background-color: white !important;
+    }
+
+    &--icons-close {
+        color: #17B2BF !important;
+        cursor: pointer;
+    }
+
+    &--add-Goal-Back-button {
+        @extend %defaultButton;
+        background-color: transparent !important;
+        color: #17b2bf;
+        height: 41px;
+        border: 1px solid #17b2bf !important;
+        width: 168px;
+    }
+
+    &--add-Goal-Back-button:hover,
+    &--add-Goal-Full-button:hover {
+        color: #17b2bf !important;
+    }
+
+    &--add-Goal-Full-button {
+        @extend %defaultButton;
+        background-color: transparent !important;
+        color: #17b2bf;
+        border: 1px solid #17b2bf !important;
+        height: 41px;
+        width: 100%;
+    }
+
+    &--add-Goal-Save-button {
+        @extend %defaultButton;
+        background-color: #17b2bf !important;
+        color: white;
+        border: 1px solid #17b2bf !important;
+        height: 41px;
+        width: 168px;
+    }
+}

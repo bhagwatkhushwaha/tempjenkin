@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="44px" viewBox="0 0 36 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>A9E8FB7C-E3BA-4777-9773-7E55A1737A82</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page---Finance" transform="translate(-282.000000, -998.000000)">
+            <g id="Section-2" transform="translate(3.000000, 780.000000)">
+                <g id="Card/No-button-Card/Feature/Left" transform="translate(249.000000, 160.000000)">
+                    <g id="Card/Feature">
+                        <g id="icons/arrow-right-icons/insurance" transform="translate(24.000000, 56.000000)">
+                            <g id="icons/insurance">
+                                <path d="M12,13.6 L12,23 C12,32.04 17.96,40.38 26,42.86 C34.04,40.4 40,32.04 40,23 L40,13.6 L26,7.38 L12,13.6 Z M38,19 L22,35 L14,27 L16.82,24.18 L22,29.34 L35.18,16.16 L38,19 Z" id="Shape" fill="#FF826B" fill-rule="nonzero" opacity="0.230840774"></path>
+                                <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+                                <path d="M24,2 L6,10 L6,22 C6,33.1 13.68,43.48 24,46 C34.32,43.48 42,33.1 42,22 L42,10 L24,2 Z M38,22 C38,31.04 32.04,39.38 24,41.86 C15.96,39.38 10,31.04 10,22 L10,12.6 L24,6.38 L38,12.6 L38,22 Z M14.82,23.18 L12,26 L20,34 L36,18 L33.18,15.16 L20,28.34 L14.82,23.18 Z" id="Shape" fill="#3F3D56" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

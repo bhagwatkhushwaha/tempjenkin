@@ -1,0 +1,50 @@
+@import "../../../styles/abstracts/variables";
+$borderRedius: 8px;
+$goalColor: #333333; 
+
+@mixin font($val) {
+    font-size: unquote($val + ' !important');
+}
+
+.graphDiv {
+    border-radius: $borderRedius;
+}
+
+.fullHeight{
+    height:100%;
+}
+
+.modal-content {
+    background-color: transparent;
+    @extend .fullHeight;
+}
+
+.formContent {
+    background-color: white !important;
+    @extend .fullHeight;
+}
+
+.your-goals {
+    /*height: 37px;
+    width: 201px;*/
+    color: $goalColor;
+}
+
+img {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.name {
+    color: $goalColor;
+    font-family: unquote($fontFamily);
+    @include font(14px);
+    font-weight: 500;
+    line-height: 16px;
+}
+.m-card-user__details{
+    padding-left:7px !important;
+    cursor:pointer;
+}
+
+

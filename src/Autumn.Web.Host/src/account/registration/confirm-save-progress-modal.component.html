@@ -1,0 +1,49 @@
+<div bsModal #createOrEditModal="bs-modal" class="modal fade" tabindex="-1" role="dialog"
+    aria-labelledby="createOrEditModal" aria-hidden="true" [config]="{backdrop: 'static', keyboard: !saving}">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <form *ngIf="active" [formGroup]="aboutYouForm" novalidate (ngSubmit)="save()" autocomplete="off">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                    </h4>
+                    <button type="button" class="close" (click)="close()" [attr.aria-label]="l('Close')"
+                        [disabled]="saving">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="font32">{{"gotoDashboardHeader" | localize}}</h3>
+                        </div>
+                        <div class="col-12">
+                            <label class="font18">{{"gotoDashboardLabel" | localize}}</label>
+                        </div>
+                        <div class="col-12 m--padding-bottom-10">
+                            <input type="password" required formControlName="password" (input)="onChange()"
+                                   class="confirmPasswordTextBox text-center" name="password" placeholder="Password" />
+                        </div>
+                        <br />
+
+                        <div class="col-12">
+                            <input type="password" required formControlName="confirmPassword" (input)="onChange()"
+                                   class="confirmPasswordTextBox text-center" name="confirmPassword"
+                                   placeholder="Confirm Password" />
+                        </div>
+                        <br>
+                        <div *ngIf="error1" style="text-align: center;color:red;width: 100%;margin-top: 5px;">
+                            <span>The fields are mandatory.</span>
+                        </div>
+                        <div *ngIf="error2" style="text-align: center;color:red;width: 100%;margin-top: 5px;">
+                            <span>Password does not match</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn saveProgressButton"
+                        (click)="save()">{{"ConfirmExit" | localize}}</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

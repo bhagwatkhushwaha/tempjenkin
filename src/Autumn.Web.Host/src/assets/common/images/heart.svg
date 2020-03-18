@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="55px" viewBox="0 0 60 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>EBCD9B3A-39E8-434E-8851-6EA5ECE1DEC5</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page---Finance" transform="translate(-355.000000, -429.000000)">
+            <g id="Section-1" transform="translate(-1.000000, 0.000000)">
+                <g id="Carousel" transform="translate(205.000000, 329.000000)">
+                    <g id="Card" transform="translate(49.000000, 55.000000)">
+                        <g id="icons/insurance-copy-icons/heart" transform="translate(96.000000, 36.000000)">
+                            <g id="icons/heart">
+                                <path d="M52.5,16.5 C47.88,16.5 43.38,19.4699999 41.82,23.5799998 L36.21,23.5799998 C34.62,19.4699999 30.12,16.5 25.5,16.5 C19.5,16.5 15,21 15,27 C15,35.6699995 24.42,44.2199992 38.7,57.1499989 L39,57.4499989 L39.3,57.1499989 C53.58,44.2199992 63,35.6699995 63,27 C63,21 58.5,16.5 52.5,16.5 Z" id="Path" fill="#FF826B" fill-rule="nonzero" opacity="0.230840774"></path>
+                                <polygon id="Path" points="0 0 72 0 72 72 0 72"></polygon>
+                                <path d="M49.5,9 C44.28,9 39.27,11.4300001 36,15.2700001 C32.73,11.4300001 27.72,9 22.5,9 C13.26,9 6,16.2600002 6,25.5 C6,36.8400006 16.2,46.0800008 31.65,60.1200011 L36,64.0500011 L40.35,60.0900011 C55.8,46.0800008 66,36.8400006 66,25.5 C66,16.2600002 58.74,9 49.5,9 Z M36.3,55.6499989 L36,55.9499989 L35.7,55.6499989 C21.42,42.7199992 12,34.1699995 12,25.5 C12,19.5 16.5,15 22.5,15 C27.12,15 31.62,17.9699999 33.21,22.0799998 L38.82,22.0799998 C40.38,17.9699999 44.88,15 49.5,15 C55.5,15 60,19.5 60,25.5 C60,34.1699995 50.58,42.7199992 36.3,55.6499989 Z" id="Shape" fill="#3F3D56" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,84 @@
+.mainUpperDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.topBarOuterDiv {
+  position: fixed;
+  height: 64px;
+  background-color: white;
+  border-bottom: black;
+  border-top: black;
+  width: 100%;
+  display: inline-flex;
+  z-index: 1;
+  border-bottom: 1px solid #a86781;
+}
+
+.autumnLogoDiv {
+  width: 50%;
+  height: 100%;
+  padding: 17px 0px 0px 10.83%;
+  display: inline-flex;
+}
+
+.scrollDiv {
+  height: 100%;
+  width: 100%;
+  background-color: #faf9f7;
+  position: fixed;
+  overflow: scroll;
+}
+
+.scrollDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.profile-strength-be {
+  color: #505d6f;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.mask-copy-3 {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 92%;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+.loginButton {
+  height: 40px;
+  width: 168px;
+  margin: 15%;
+}
+
+.mat-raised-button {
+  box-shadow: none !important;
+}
+
+.addMemberCls .material-icons {
+  font-size: 60px !important;
+}
+
+.topBarValues {
+  width: 15%;
+  padding-top: 18px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #17b2bf;
+  cursor: pointer;
+}
+
+.topBarValues.active:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 80%; /* Change this to whatever width you want. */
+  padding-top: 18px; /* This creates some space between the element and the border. */
+  border-bottom: 3px solid #17b2bf; /* This creates the border. Replace black with whatever color you want. */
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>FC6A8EA8-DD04-45C6-B65B-DB86E76D45EC</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page---Finance" transform="translate(-1026.000000, -426.000000)">
+            <g id="Section-1" transform="translate(-1.000000, 0.000000)">
+                <g id="Carousel" transform="translate(205.000000, 329.000000)">
+                    <g id="Card" transform="translate(720.000000, 55.000000)">
+                        <g id="icons/insurance-icons/health" transform="translate(96.000000, 36.000000)">
+                            <g id="twotone-add_circle-24px">
+                                <path d="M39,13.5 C25.77,13.5 15,24.27 15,37.5 C15,50.73 25.77,61.5 39,61.5 C52.23,61.5 63,50.73 63,37.5 C63,24.27 52.23,13.5 39,13.5 Z M54,40.5 L42,40.5 L42,52.5 L36,52.5 L36,40.5 L24,40.5 L24,34.5 L36,34.5 L36,22.5 L42,22.5 L42,34.5 L54,34.5 L54,40.5 Z" id="Shape" fill="#FF826B" fill-rule="nonzero" opacity="0.230840774"></path>
+                                <polygon id="Path" points="0 0 72 0 72 72 0 72"></polygon>
+                                <path d="M39,21 L33,21 L33,33 L21,33 L21,39 L33,39 L33,51 L39,51 L39,39 L51,39 L51,33 L39,33 L39,21 Z M36,6 C19.44,6 6,19.44 6,36 C6,52.56 19.44,66 36,66 C52.56,66 66,52.56 66,36 C66,19.44 52.56,6 36,6 Z M36,60 C22.77,60 12,49.23 12,36 C12,22.77 22.77,12 36,12 C49.23,12 60,22.77 60,36 C60,49.23 49.23,60 36,60 Z" id="Shape" fill="#3F3D56" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+
+/// Main brand colors
+/// @type Color
+$main-brand-color: #17B2BF !default;
+$sub-brand-color: #FF826B !default;
+
+$inactive-button-background-color: #A2A2A2;
+$transpatent: rgba(23, 177, 191, 0) !default;
+
+$primary-button-text-color: #FFFFFF;
+$secondary-button-text-color: $main-brand-color;
+
+$primary-button-background-color: $main-brand-color!default;
+$secondary-button-background-color: $transpatent;
+
+$onboarding-button-border-color: $main-brand-color;
+
+$activeButtonBackgroundColor: #17B2BF;
+$activeButtonColor: white;
+$activeButtonBackgroundColor: #17B2BF;
+$borderRedius: 8px;
+
+$fontFamily: 'Raleway !important';
+
+$confirmPasswordActiveButtonColor: white;
+$confirmPasswordActiveButtonBackgroundColor: #17B2BF;

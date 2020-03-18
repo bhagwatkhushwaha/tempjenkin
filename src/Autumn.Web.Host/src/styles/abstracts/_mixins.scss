@@ -1,0 +1,3 @@
+@mixin font($val) {
+    font-size: unquote($val + ' !important');
+}

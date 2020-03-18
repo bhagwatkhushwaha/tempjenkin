@@ -1,0 +1,342 @@
+.mainUpperDiv {
+  height: 100%;
+  width: 100%;
+  background-color: #9ca4ab;
+}
+
+.mainFunctionDiv {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.topBarDiv {
+  position: fixed;
+  height: 64px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  display: inline-flex;
+  z-index: 3;
+}
+
+.autumnLogoDiv {
+  width: 50%;
+  height: 100%;
+  padding: 17px 0px 0px 166px;
+  display: inline-flex;
+}
+
+.loginRegDiv {
+  width: 50%;
+  height: 100%;
+  padding: 12px 0px 0px 0px;
+}
+
+.loginRegInnerDiv {
+  float: right;
+  padding-right: 166.22px;
+}
+
+.innerItemDiv {
+  padding: 64px 0px 0px 0px;
+}
+
+.imgHeightWidth {
+  height: 300px;
+  width: 100%;
+}
+
+.stepDivs {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.step1MainDiv {
+  height: 300px;
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
+.stepImg {
+  position: absolute;
+  height: 100%;
+}
+
+.corouselMainDiv {
+  width: 100%;
+  height: 250px;
+  background-color: #faf9f7;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+.corouselInnerDiv {
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+}
+
+.loginButton {
+  height: 40px;
+  width: 168px;
+  border-radius: 8px;
+}
+
+.mat-raised-button {
+  box-shadow: none !important;
+}
+
+.autumn {
+  height: 30px;
+  width: 115.4px;
+  color: #a86781;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.registerButton {
+  height: 40px;
+  width: 168px;
+  color: #ffffff;
+  background-color: #17b2bf;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.life-s-good-when-you {
+  width: 100%;
+  color: #505d6f;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+  height: 250px;
+  background-color: #faf9f7;
+}
+
+.heartShape {
+  height: 36.7px;
+  width: 40px;
+  background-color: #3f3d56;
+}
+
+// .corousel {
+//   height: 100%;
+//   width: 280px;
+//   font-size: 26px;
+//   background-color: white;
+//   border-radius: 8px;
+//   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+//   text-align: center;
+//   padding: 10% 10px 5px 10px;
+//   transition-duration: 1s;
+//   color: #505d6f;
+//   font-weight: 600;
+// }
+
+// .owl-carousel {
+//   width: 90% !important;
+//   margin: 10% auto;
+// }
+
+// .owl-carousel .owl-nav {
+//   overflow: hidden;
+//   height: 0px;
+// }
+
+// .owl-carousel .nav-btn {
+//   height: 47px;
+//   position: absolute;
+//   width: 26px;
+//   cursor: pointer;
+//   top: 30% !important;
+// }
+
+// .owl-carousel .owl-prev.disabled,
+// .owl-carousel .owl-next.disabled {
+//   pointer-events: none;
+//   opacity: 0.2;
+// }
+
+// .owl-carousel .prev-slide {
+//   background: url(assets/common/images/bg-6.jpg) no-repeat scroll 0 0;
+//   left: -33px;
+// }
+
+// .owl-carousel .next-slide {
+//   background: url(assets/common/images/bg-6.jpg) no-repeat scroll -24px 0px;
+//   right: -33px;
+// }
+
+// .owl-carousel .prev-slide:hover {
+//   background-position: 0px -53px;
+// }
+
+// .owl-carousel .next-slide:hover {
+//   background-position: -24px -53px;
+// }
+
+.slideIconDiv {
+  width: 100%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.infoDiv {
+  color: #505d6f;
+}
+
+.infoIconDiv {
+  color: #505d6f;
+  margin-top: 2%;
+}
+
+.slideIconDiv .material-icons {
+  font-size: 60px !important;
+}
+
+// .infoIconDiv .material-icons {
+//   font-size: 40px !important;
+// }
+
+.features {
+  color: #505d6f;
+}
+
+.features .material-icons {
+  font-size: 26px !important;
+  color: #16c60c;
+  line-height: 1.3;
+}
+
+.inlineFlex {
+  display: inline-flex;
+}
+
+.featuresText {
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.card-name {
+  color: #505d6f;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.subheader {
+  height: 0.42%;
+  width: 11.06%;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.header {
+  height: 37px;
+  width: 508.4px;
+  color: #505d6f;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 37px;
+}
+
+.set-up-your-retireme {
+  height: 63px;
+  width: 384px;
+  color: #3f3d56;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.by-connecting-you-ac {
+  color: #505d6f;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.how-to-get-your-reti {
+  color: #505d6f;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.feel-like-at-home {
+  color: #505d6f;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.customNextBtn {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 2%;
+}
+
+.customPrevBtn {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  right: 5%;
+}
+
+.step1InnerDiv {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+.step2InnerDiv {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 12%;
+  left: 20%;
+}
+
+.step3InnerDiv {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.step1Div {
+  height: 268px;
+  width: 268px;
+  background-color: #faf9f7;
+  clip-path: polygon(0% 20%, 20% 0%, 100% 0%, 100% 5%, 100% 95%, 100% 100%, 5% 100%, 0 100%);
+}
+
+.step2Div {
+  height: 300px;
+  width: 390px;
+  background-color: #faf9f7;
+  clip-path: polygon(0% 0%, 20% 0%, 100% 0%, 100% 5%, 100% 80%, 80% 100%, 5% 100%, 0 100%);
+}
+
+.step3Div {
+  height: 300px;
+  width: 300px;
+  background-color: #faf9f7;
+  clip-path: polygon(0% 0%, 20% 0%, 100% 0%, 100% 5%, 100% 95%, 100% 100%, 20% 100%, 0 80%);
+}

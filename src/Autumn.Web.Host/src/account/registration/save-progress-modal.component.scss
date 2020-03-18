@@ -1,0 +1,47 @@
+@import "../../styles/abstracts/variables";
+
+$activeButtonColor: white;
+$activeButtonBackgroundColor: #17B2BF;
+$borderRedius: 8px;
+
+@mixin font($val) {
+    font-size: unquote($val + ' !important');
+}
+
+.user-edit-dialog-profile-image {
+    margin-bottom: 20px;
+}
+
+.saveProgressButton {
+    background-color: $activeButtonBackgroundColor;
+    color: $activeButtonColor;
+    border-radius: $borderRedius;
+    border-color: $activeButtonBackgroundColor;
+    height: 56px;
+    width: 263px;
+    text-align: center;
+    @include font(16px);
+}
+
+.close, .close:hover {
+    color: $activeButtonBackgroundColor;
+}
+
+.confirmPasswordTextBox {
+    width: 100%;
+    padding: 10px;
+    color: $confirmPasswordActiveButtonBackgroundColor;
+    border-radius: $borderRedius;
+    border: 1px solid black;
+    @include font(16px);
+}
+
+::placeholder {
+    color: $confirmPasswordActiveButtonBackgroundColor;
+    opacity:0.7;
+}
+
+.confirmPasswordTextBox:focus {
+    border: 1px solid black;
+    outline: none;
+}

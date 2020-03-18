@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props"></Import>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <RootNamespace>Autumn</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20190908123519_Onboarding-table.cs" />
+    <Compile Remove="Migrations\20190908124143_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190908124618_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190908124726_updated-userTable-withOnboardingDate.cs" />
+    <Compile Remove="Migrations\20190908124825_updated-userTable-withOnboardingData.cs" />
+    <Compile Remove="Migrations\20190908125622_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190908125848_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190908130013_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190908130539_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190909045357_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190909045924_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190909051418_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190909122525_Onboarding-tables.cs" />
+    <Compile Remove="Migrations\20190909125845_removed_maxlength_Currencycode.cs" />
+    <Compile Remove="Migrations\20190910065621_Added_Country_Table.cs" />
+    <Compile Remove="Migrations\20190910065839_Added_AutumnUser_Tables.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Autumn.Core\Autumn.Core.csproj" />
+  </ItemGroup>
+</Project>

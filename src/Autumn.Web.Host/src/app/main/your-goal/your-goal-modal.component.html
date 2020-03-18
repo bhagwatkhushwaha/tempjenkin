@@ -1,0 +1,66 @@
+<div bsModal #createOrEditModal="bs-modal" id="overlay" class="modal fitDiv" tabindex="-1" role="dialog" aria-labelledby="createOrEditModal" aria-hidden="true" [config]="{backdrop: 'static', keyboard: !saving}">
+
+    <div class="modal-content" style="">
+        <form class="fullHeight" *ngIf="active" #goleSettingForm="ngForm" novalidate (ngSubmit)="save()" autocomplete="off">
+            <div class="modal-body fullHeight" style="padding:0px !important;">
+                <div class="row fullHeight">
+                    <div class="col-md-8 col-lg-8 col-xl-8 col-sm-6 fullHeight">
+                        <div class="row m--padding-100">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12" style="background-color:white;height:200px;">
+                                <h3 class="text-center">{{"GraphHere" | localize}} </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 formContent m--padding-20" style="">
+                        <div class="row m--padding-bottom-20">
+                            <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 m--padding-left-0 your-goals">
+                                <h3 class="font32 fontWeight600"> {{"YourGoals" | localize}} </h3> <br />
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 m--padding-right-0">
+                                <h3 class="font32 float-right btn--icons-close" (click)="close()" style="color:#17B2BF"> X </h3>
+
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                                <span>{{"YourGoalsDescription" | localize}}</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                                <button class="btn btn--add-goal" (click)="chooseGoalModal.show()">
+                                    <img class="m--margin-right-15" alt="photo" src="../../../assets/common/icons/goal-setting/plus.svg"> {{"Add goal" | localize}}
+                                </button>
+                            </div>
+
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 m--margin-bottom-15">
+                                <div class="m-card-user m-card">
+                                    <div class="m-card-profile">
+                                        <img alt="photo" src="../../../assets/common/icons/goal-setting/education.svg">
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name name" style="color:#333333 !important">Jennifer College Tuition</span>
+                                        <span class="m-card-user__details amount" style="padding-left:0px !important"><b>$130,000</b></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 m--margin-bottom-15">
+                                <div class="m-card-user m-card">
+                                    <div class="m-card-profile">
+                                        <img alt="photo" src="../../../assets/common/icons/goal-setting/car.svg">
+                                    </div>
+                                    <div class="m-card-user__details">
+                                        <span class="m-card-user__name name" style="color:#333333 !important">Sell car</span>
+                                        <span class="m-card-user__details amount" style="padding-left:0px !important"><b>+ $130,000</b></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+<chooseGoalModal #chooseGoalModal></chooseGoalModal>

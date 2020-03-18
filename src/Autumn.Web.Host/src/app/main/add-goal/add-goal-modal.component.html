@@ -1,0 +1,97 @@
+<div bsModal #createOrEditModal="bs-modal" id="overlay" class="modal fitDiv" tabindex="-1" role="dialog" aria-labelledby="createOrEditModal" aria-hidden="true" [config]="{backdrop: 'static', keyboard: !saving}">
+
+    <div class="modal-content" style="">
+        <form class="fullHeight" *ngIf="active" [formGroup]="addGoalForm" novalidate autocomplete="off">
+            <div class="modal-body fullHeight" style="padding:0px !important;">
+                <div class="row fullHeight">
+                    <div class="col-md-8 col-lg-8 col-xl-8 col-sm-6 fullHeight">
+                        <div class="row m--padding-100">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12" style="background-color:white;height:200px;">
+                                <h3 class="text-center">{{"GraphHere" | localize}} </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 col-sm-6 formContent m--padding-20" style="">
+                        <div class="row m--padding-bottom-20">
+                            <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 m--padding-left-0 your-goals">
+                                <h3 class="font32 fontWeight600"> {{"AddProperty" | localize}} </h3> <br />
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 m--padding-right-0">
+                                <h3 class="font32 float-right btn--icons-close" (click)="close()" style="color:#17B2BF"> X </h3>
+                            </div>
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12">
+                                <span>{{"IWantTo" | localize}}</span>
+                                <span style="color:#17b2bf">{{"buy" | localize}}</span>
+                                <span>{{"AProperty" | localize}}</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 m--margin-bottom-15">
+                                <mat-form-field class="full-width subtitle-1">
+                                    <input matInput placeholder="Property Name" formControlName="name" required>
+                                </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 m--margin-bottom-15">
+                                <mat-form-field class="full-width subtitle-1">
+                                    <mat-label>Property Type</mat-label>
+                                    <mat-select formControlName="propertyType">
+                                        <mat-option value="Property">Property</mat-option>
+                                        <mat-option value="Car">Car</mat-option>
+                                        <mat-option value="Education">Education</mat-option>
+                                    </mat-select>
+                                </mat-form-field>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 m--margin-bottom-15">
+                                <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 padding-left-0 floatleft">
+                                    <mat-form-field class="full-width subtitle-1">
+                                        <mat-label>Purchase Year</mat-label>
+                                        <mat-select formControlName="purchaseYear">
+                                            <mat-option value="2018">2018</mat-option>
+                                            <mat-option value="2019">2019</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 col-sm-6 padding-right-0 floatleft">
+                                    <mat-form-field class="full-width subtitle-1">
+                                        <mat-label>Purchase Value</mat-label>
+                                        <mat-select formControlName="purchaseValue">
+                                            <mat-option value="1000000">1000000</mat-option>
+                                            <mat-option value="2000000">2000000</mat-option>
+                                            <mat-option value="3000000">3000000</mat-option>
+                                        </mat-select>
+                                    </mat-form-field>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 m--margin-bottom-15">
+                                <button class="btn btn-block btn--add-Goal-Full-button" (click)="close()">
+                                    {{"EnterMoreDetails" | localize}}
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 text-right">
+                                <button class="btn--add-Goal-Back-button" (click)="close()">
+                                    {{"GoBack" | localize}}
+                                </button>
+                                <button class="btn--add-Goal-Save-button" style="margin-left:10px;" (click)="close()">
+                                    {{"SaveGoal" | localize}}
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
