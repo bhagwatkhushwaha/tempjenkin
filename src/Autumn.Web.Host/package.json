@@ -40,7 +40,7 @@
     "cookieconsent": "^3.1.0",
     "core-js": "^2.6.5",
     "famfamfam-flags": "^1.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "js-cookie": "^2.2.0",
     "localforage": "^1.7.3",
     "lodash": "^4.17.11",
